@@ -3,14 +3,6 @@
 This repository contains Dockerfile for [microcule](https://github.com/Stackvana/microcule)
 container, based on the [tensorflow](https://hub.docker.com/r/tensorflow/tensorflow/) image.
 
-## Stacks
-- python 3
-- [nodejs 8](https://github.com/nodesource/distributions)
-- [tensorflow:latest](https://github.com/tensorflow/tensorflow)
-- [microcule](https://github.com/Stackvana/microcule)
-- [mon](https://github.com/tj/mon)
-- [yarn](https://github.com/yarnpkg/yarn)
-
 ## Install
 
 As a prerequisite, you need [Docker](https://docker.com) to be installed.
@@ -33,6 +25,13 @@ docker build -t ${NAME_SPACE}/${CONTAINER} .
 docker run -it --name ${CONTAINER} ${NAME_SPACE}/${CONTAINER} bash
 ```
 ## Super Thanks
+### Stacks
+- python 3
+- [nodejs 8](https://github.com/nodesource/distributions)
+- [tensorflow:latest](https://github.com/tensorflow/tensorflow)
+- [microcule](https://github.com/Stackvana/microcule)
+- [mon](https://github.com/tj/mon)
+- [yarn](https://github.com/yarnpkg/yarn)
 
 ## Upload history
 ```bash
