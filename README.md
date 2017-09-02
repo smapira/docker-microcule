@@ -34,3 +34,9 @@ docker run -it --name ${CONTAINER} ${NAME_SPACE}/${CONTAINER} bash
 ```
 ## Super Thanks
 
+## Upload history
+```bash
+docker login
+docker build -t smapira/docker-microcule .
+docker push smapira/docker-microcule
+```

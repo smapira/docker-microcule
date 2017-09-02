@@ -18,6 +18,7 @@ RUN cd /tmp; git clone https://github.com/tj/mon; cd mon; make install
 # install tensorflow
 RUN pip3 install --upgrade pip
 RUN pip3 install --upgrade tensorflow
+#RUN pip3 install --upgrade tensorflow-gpu
 
 # install yarn
 RUN npm install -g yarn
