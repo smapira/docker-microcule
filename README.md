@@ -52,6 +52,8 @@ UBUNTU_CODENAME=xenial
 - [microcule](https://github.com/Stackvana/microcule)
 - [mon](https://github.com/tj/mon)
 - [yarn](https://github.com/yarnpkg/yarn)
+- ruby
+- rust
 
 ## Upload history
 ```bash
